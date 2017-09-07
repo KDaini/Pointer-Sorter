@@ -1,0 +1,43 @@
+TEST CASES
+
+1.
+
+in              ask lim0ko[asd]1/sas zaas
+expected out    asd ask ko lim sas zaas
+out             asd ask ko lim sas zaas
+
+2.
+
+in              thing stuff otherstuff blarp
+expected out    blarp otherstuff stuff thing
+out             blarp otherstuff stuff thing
+
+3.
+
+in              thing1stuff3otherstuff,blarp
+expected out    blarp otherstuff stuff thing
+out             blarp otherstuff stuff thing
+
+4.
+
+in              asd!yo?zen!zem1zen,asdf nj
+expected out    asd asdf yo zem zen zen
+out             asd asdf yo zem zen zen
+
+5.
+
+in              z!x@o#p$a%e^s&d*f(g(u)k_j=l[h+d=q
+expected out    a d d e f g h j k l o p q s u x z
+out             a d d e f g h j k l o p q s u x z
+
+6.
+
+in              !@#$%^&
+expected out    ERROR, NO WORDS ENTERED
+out             ERROR, NO WORDS ENTERED
+
+7.
+
+in
+expected out    ARG ERROR
+out             ARG ERROR
